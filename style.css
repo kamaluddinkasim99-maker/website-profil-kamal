@@ -305,3 +305,22 @@ transition: 0.3s;
 .dark-mode footer {
   color: #d1d5db;
 }
+.scholar-button {
+  background-color: white;
+  color: #1e3a8a;
+  margin-top: 20px;
+}
+
+.scholar-button:hover {
+  background-color: #f9a8d4;
+  color: white;
+}
+.dark-mode .scholar-button {
+  background-color: #f9fafb;
+  color: #1e3a8a;
+}
+
+.dark-mode .scholar-button:hover {
+  background-color: #93c5fd;
+  color: #111827;
+}

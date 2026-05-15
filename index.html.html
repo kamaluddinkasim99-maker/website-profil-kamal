@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Pribadi Kamal</title>
+  <link rel="stylesheet" href="style.css">
+</head>  <title>Profil Pribadi Kamal</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #e0f2fe, #fce7f3);
+      color: #1f2937;
+    }
+
+    .container {
+      width: 85%;
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: white;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .header {
+      text-align: center;
+      padding: 30px;
+      background-color: #1e3a8a;
+      color: white;
+      border-radius: 18px;
+    }
+
+    .foto-profil {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 5px solid white;
+      object-fit: cover;
+      background-color: #ddd;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    .tagline {
+      font-size: 18px;
+      color: #dbeafe;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .section h2 {
+      color: #1e3a8a;
+      border-bottom: 2px solid #f9a8d4;
+      padding-bottom: 8px;
+    }
+
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background-color: #dbeafe;
+      color: #1e3a8a;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+
+    .kontak {
+      background-color: #f3f4f6;
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background-color: #1e3a8a;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+
+    .button:hover {
+      background-color: #f472b6;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #6b7280;
+    }
+  </style>
+</head>
+
+<body>
+ <nav class="navbar">
+  <div class="nav-title">Kamaluddin Kasim Profile</div>
+
+  <div class="nav-menu">
+    <a href="#tentang">Tentang</a>
+    <a href="#keahlian">Keahlian</a>
+    <a href="#pengalaman">Pengalaman</a>
+    <a href="#portofolio">Portofolio</a>
+    <a href="#kontak">Kontak</a>
+    <button onclick="ubahMode()" class="mode-button" id="modeButton">Dark Mode</button>
+  </div>
+</nav>
+  <div class="container">
+
+    <div class="header">
+      <img src="kamal1.JPEG" alt="Foto Profil" class="foto-profil">
+      <h1>Kamaluddin Kasim</h1>
+      <p class="tagline">Policy Analist | Scientist | Web Developer</p>
+    </div>
+
+    <div class="section" id="tentang">
+      <h2>Tentang Saya</h2>
+      <p>
+        Halo! Saya Kamal, seseorang yang suka belajar hal baru, seorang analis kebijakan publik,
+        dan mengembangkan kemampuan digital. Saat ini saya sedang belajar membuat website
+        pribadi menggunakan HTML dan CSS.
+      </p>
+    </div>
+
+    <div class="section" id="keahlian">
+      <h2>Keahlian</h2>
+      <div class="skill-list">
+        <div class="skill">Data Analyst</div>
+        <div class="skill">Public Policy Analyst</div>
+        <div class="skill">Advokasi Kebijakan Publik</div>
+        <div class="skill">Web Developer</div>
+        <div class="skill">Content Design</div>
+      </div>
+    </div>
+
+    <div class="section" id="pengalaman">
+      <h2>Pengalaman</h2>
+      <p>
+        Saya memiliki pengalaman dalam kajian stok sumber daya ikan, pengelolaan perikanan, dan aktif terlibat dalam konservasi sumber daya ikan. Telah menerbitkan banyak tulisan di jurnal Internasional Q1 maupun jurnal nasional SINTA 1
+      </p>
+    </div>
+<div class="section" id="portofolio">
+  <h2>Portofolio</h2>
+
+  <div class="portfolio-list">
+
+    <div class="portfolio-card">
+      <h3>Publikasi Ilmiah</h3>
+      <p>
+        Telah menerbitkan puluhan publikasi ilmiah tentang pengelolaan perikanan di Indonesia, aktif dalam isu isu pengelolaan perikanan dan memberikan advokasi kebijakan pengelolaan perikanan yang berkelanjutan serta konservasi sumber daya ikan
+      </p>
+    </div>
+
+    <div class="portfolio-card">
+      <h3>Analis Kebijakan Perikanan dan Kelautan</h3>
+      <p>
+        Aktif dalam melaksanakan kegiatan riset kebijakan sektor kelautan dan perikanan, khususnya dalam pengelolaan sumber daya ikan menggunakan metode kajian stok untuk data poor fisheries.
+      </p>
+    </div>
+
+    <div class="portfolio-card">
+      <h3>Website Profil Pribadi</h3>
+      <p>
+        Membuat website profil pribadi menggunakan HTML dan CSS sebagai langkah awal
+        belajar web development.
+      </p>
+    </div>
+
+  </div>
+</div>
+   <div class="section kontak" id="kontak">
+  <h2>Kontak</h2>
+  <p>Email: kamaluddin.kasim@gmail.com</p>
+  <p>Instagram: @kamaluddinkasim</p>
+
+  <a href="mailto:kamaluddin.kasim@gmail.com" class="button">Hubungi via Email</a>
+
+  <a 
+    href="https://wa.me/6281211742710?text=Halo%20Kamal,%20saya%20tertarik%20dengan%20profil%20Anda"
+    class="button whatsapp"
+    target="_blank">
+    Hubungi via WhatsApp
+  </a>
+</div>
+
+    <footer>
+      <p>© 2026 Kamal. Dibuat dengan HTML & CSS.</p>
+    </footer>
+
+  </div>
+<script>
+  function ubahMode() {
+    document.body.classList.toggle("dark-mode");
+
+    const tombol = document.getElementById("modeButton");
+
+    if (document.body.classList.contains("dark-mode")) {
+      tombol.textContent = "Light Mode";
+    } else {
+      tombol.textContent = "Dark Mode";
+    }
+  }
+</script>
+<script>
+  const tombol = document.getElementById("modeButton");
+
+  if (localStorage.getItem("mode") === "dark") {
+    document.body.classList.add("dark-mode");
+    tombol.textContent = "Light Mode";
+  }
+
+  function ubahMode() {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+      tombol.textContent = "Light Mode";
+      localStorage.setItem("mode", "dark");
+    } else {
+      tombol.textContent = "Dark Mode";
+      localStorage.setItem("mode", "light");
+    }
+  }
+</script>
+
+</body>
+</html>
